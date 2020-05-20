@@ -1,0 +1,50 @@
+.playercontainer{
+    background-color: gray;
+  height: 70vh;
+  width: 80vw;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  top: 5vh;
+  left: 10vw;
+  min-width: 576;
+  min-height: 324px;  
+}
+.player{
+    position: relative;
+    top: 7%;
+    left: 3%;
+    width: 960px;
+    height: 540px;
+    padding: 2px;
+    background-color: black;
+}
+.video{
+    width: 960px;
+    height: 540px;
+}
+.urlinput{
+    background-color: black;
+    width: 80vw;
+    height: 7%;
+    max-height: 50px;
+    min-height: 40px;
+    position: absolute;
+    top: 75vh;
+    left: 0vw;
+    border: none;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+    transition: width 0.2s, height 0.2s, border-bottom 0.2s, border-top 0.2s, left 0.2s;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+.urlinput:hover{
+    left: -0.5vw;
+    width: 81vw;
+    height: 5.5%;
+    border-bottom: 4px solid white;
+    border-top: 4px solid white;
+}

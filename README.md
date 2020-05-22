@@ -1,5 +1,9 @@
 # Proyecto AREP - Streaming Service with Azure
 
+## Heroku deployment
+
+Frontend for the streaming service deployed in heroku: [https://gentle-coast-40292.herokuapp.com/]
+
 ## Available Scripts
 
 In the project directory, you can run:

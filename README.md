@@ -30,8 +30,8 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 # Author
-Nicolás Cárdenas Chaparro
-Eduardo Ocampo
+  Nicolás Cárdenas Chaparro
+  Eduardo Ocampo
 
 # License
 ````

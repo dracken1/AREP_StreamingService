@@ -5,7 +5,7 @@
   width: 100vw;
   border: none;
   border-radius: 0px;
-  position: absolute;
+  position: static;
   top: 0vh;
   left: 0vw;
 }

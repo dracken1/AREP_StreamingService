@@ -13,7 +13,7 @@ export default class Player extends Component {
     //urlprueba -> https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
     state = {
-        url: '',
+        url: 'https://arep-usea.streaming.media.azure.net//eae898ab-85d1-45dc-b477-8c180e16ea93/fdf9abab-672a-4577-aa08-9bdd4d6b8c3a.ism/manifest(format=m3u8-aapl)',
     }    
 
     componentDidMount() {
@@ -26,7 +26,7 @@ export default class Player extends Component {
             hls.attachMedia(video);
             hls.on(Hls.Events.MANIFEST_PARSED, function () {
                 video.play();
-            });
+            });            
         }
     }
 
@@ -67,7 +67,7 @@ export default class Player extends Component {
                     {this.state.url != '' && this.startStreaming()}
                     <video className="video" onClick={this.pausePlayHandler} autoPlay={true} ref={(player) => this.player = player}></video>
                 </div>
-                <input type="text" placeholder="URL" className="urlinput" onChange={(e) => this.handleInput(e)}></input>
+                {/* <input type="text" placeholder="URL" className="urlinput" onChange={(e) => this.handleInput(e)}></input> */}
             </div>
         )
     }

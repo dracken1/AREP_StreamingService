@@ -60,6 +60,8 @@ export default class Player extends Component {
         }
     }
 
+
+
     handleInput = (e) =>{
         this.setState({
             url: e.target.value,
@@ -74,8 +76,8 @@ export default class Player extends Component {
                     {/* {this.state.url != '' && this.startStreaming()} */}                    
                     <video className="video" onClick={this.pausePlayHandler} autoPlay={true} ref={(player) => this.player = player}></video>
                 </div>
-                {this.state.isPaused && <div className='image'></div>}<br></br>
-                <div className='label'>CLICK THE PLAYER TO PLAY/PAUSE THE STREAM</div>
+                {this.state.isPaused && <div className='image' onClick={this.pausePlayHandler}></div>}<br></br>
+                <div className='label' >CLICK THE PLAYER TO PLAY/PAUSE THE STREAM</div>
                 {/* <input type="text" placeholder="URL" className="urlinput" onChange={(e) => this.handleInput(e)}></input> */}
             </div>
         )

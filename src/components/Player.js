@@ -14,6 +14,7 @@ export default class Player extends Component {
 
     state = {
         url: 'https://arep-usea.streaming.media.azure.net//eae898ab-85d1-45dc-b477-8c180e16ea93/fdf9abab-672a-4577-aa08-9bdd4d6b8c3a.ism/manifest(format=m3u8-aapl)',
+        isPaused: true,
     }    
 
     componentDidMount() {
@@ -48,8 +49,14 @@ export default class Player extends Component {
     pausePlayHandler(){
         if(this.player.paused){
             this.player.play();
+            this.setState({
+                isPaused: false,
+            })
         } else {
             this.player.pause();
+            this.setState({
+                isPaused: true,
+            })
         }
     }
 
@@ -64,9 +71,11 @@ export default class Player extends Component {
         return (
             <div className="playercontainer">
                 <div className="player">
-                    {this.state.url != '' && this.startStreaming()}
+                    {/* {this.state.url != '' && this.startStreaming()} */}                    
                     <video className="video" onClick={this.pausePlayHandler} autoPlay={true} ref={(player) => this.player = player}></video>
                 </div>
+                {this.state.isPaused && <div className='image'></div>}<br></br>
+                <div className='label'>CLICK THE PLAYER TO PLAY/PAUSE THE STREAM</div>
                 {/* <input type="text" placeholder="URL" className="urlinput" onChange={(e) => this.handleInput(e)}></input> */}
             </div>
         )

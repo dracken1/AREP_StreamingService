@@ -31,6 +31,7 @@ Your app is ready to be deployed!
 
 # Author
 Nicolás Cárdenas Chaparro
+Eduardo Ocampo
 
 # License
 ````

@@ -1,5 +1,9 @@
 # Proyecto AREP - Streaming Service with Azure
 
+## Heroku deployment
+
+Frontend for the streaming service deployed in heroku: [https://gentle-coast-40292.herokuapp.com/]
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -26,7 +30,10 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 # Author
-Nicolás Cárdenas Chaparro
+
+  Nicolás Cárdenas Chaparro
+  
+  Eduardo Ocampo
 
 # License
 ````

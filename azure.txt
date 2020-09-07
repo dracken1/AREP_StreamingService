@@ -1,0 +1,5 @@
+Microsoft Azure (anteriormente Windows Azure y Azure Services Platform) es un servicio de computación en la nube creado por Microsoft para construir, probar, desplegar y administrar aplicaciones y servicios mediante el uso de sus centros de datos. Proporciona software como servicio (SaaS), plataforma como servicio (PaaS) e infraestructura como servicio (IaaS) y es compatible con muchos lenguajes, herramientas y marcos de programación diferentes, incluidos software y sistemas específicos de Microsoft y de terceros.
+
+Azure fue anunciado en octubre de 2008, comenzó con el nombre en clave "Project Red Dog" y publicado el 1 de febrero de 2010 como "Windows Azure" antes de ser rebautizado como "Microsoft Azure" el 25 de marzo de 2014.
+
+El 21 de agosto de 2020 se dio a conocer que habían firmado un convenio con la empresa Universal para producir contenido animado en todo el mundo mediante la técnica de Cloud Computing. Segun las palabras de un directivo dice que hemos desbloqueado una nueva forma de hacer películas en una forma como nunca antes se ha hecho
